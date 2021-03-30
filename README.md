@@ -12,8 +12,6 @@ Here's what the database looks like:
 
 ![erd](./erd.png)
 
-There are 18 directors, 31 movies, 6 users, and 44 `usersMovies`.
-
 `usersMovies` is a join table that represents which users would claim which movies as favorites. Each user can have many favorite movies, and each movie can be favorited by many users.
 
 ### PART 1: Creating linked data
