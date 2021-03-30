@@ -19,7 +19,7 @@ Here's what the database looks like:
 1. Add the director of your new movie to the directors table.
 1. Update your new movie to have the correct director.
 1. Add yourself to the users table.
-1. Add a row to the users_movies table so that your user has the new movie as a favorite.
+1. Add a row to the usersMovies table so that your user has the new movie as a favorite.
 
 ### PART 2: Querying linked data with JOINS!!!
 
