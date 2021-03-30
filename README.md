@@ -27,7 +27,7 @@ Here's what the database looks like:
 2. Find the director who directed "There Will Be Blood".
 3. Find all of Ryan's favorites.
 4. Find everyone who added "The Lobster" as a favorite movie.
-5. Find the names of all users who favorited a movie directed by Joel Cohen. Note that you may get duplicates for the reasons described here: https://stackoverflow.com/questions/23786401/why-do-multiple-table-joins-produce-duplicate-rows. You can remove duplicates like this: https://www.w3schools.com/sql/sql_distinct.asp.
+5. Find the names of all users who favorited a movie directed by Joel Coen. Note that you may get duplicates for the reasons described here: https://stackoverflow.com/questions/23786401/why-do-multiple-table-joins-produce-duplicate-rows. You can remove duplicates like this: https://www.w3schools.com/sql/sql_distinct.asp.
 
 ### PART 3: Advanced Queries!
 
