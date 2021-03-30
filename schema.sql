@@ -6,9 +6,9 @@ CREATE TABLE IF NOT EXISTS directors (
 CREATE TABLE IF NOT EXISTS movies (
   id SERIAL PRIMARY KEY,
   title VARCHAR(255) NOT NULL,
-  release_date INTEGER,
+  releaseDate INTEGER,
   synopsis TEXT,
-  director_id INTEGER
+  directorId INTEGER
 );
 
 CREATE TABLE IF NOT EXISTS users (
@@ -16,8 +16,8 @@ CREATE TABLE IF NOT EXISTS users (
   name VARCHAR(100) NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS users_movies (
+CREATE TABLE IF NOT EXISTS usersMovies (
   id SERIAL PRIMARY KEY,
-  user_id INTEGER,
-  movie_id INTEGER
+  userId INTEGER,
+  movieId INTEGER
 );

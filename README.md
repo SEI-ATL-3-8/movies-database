@@ -10,11 +10,11 @@
 
 Here's what the database looks like:
 
-![erd](./erd.jpg)
+![erd](./erd.png)
 
-There are 18 directors, 31 movies, 6 users, and 44 `user_movies`.
+There are 18 directors, 31 movies, 6 users, and 44 `usersMovies`.
 
-`user_movies` is a join table that represents which users would claim which movies as favorites. Each user can have many favorite movies, and each movie can be favorited by many users.
+`usersMovies` is a join table that represents which users would claim which movies as favorites. Each user can have many favorite movies, and each movie can be favorited by many users.
 
 ### PART 1: Creating linked data
 1. Think of your favorite movie that isn't directed by someone on the list of directors. Add that movie to the movies table.
@@ -28,8 +28,8 @@ There are 18 directors, 31 movies, 6 users, and 44 `user_movies`.
 1. Select all the movies directed by Alex Garland.
 2. Find the director who directed "There Will Be Blood".
 3. Find all of Ryan's favorites.
-4. Find everyone who added "The Shining" as a favorite movie.
-5. Find the names of all users who favorited a movie directed by Joel Cohen.
+4. Find everyone who added "The Lobster" as a favorite movie.
+5. Find the names of all users who favorited a movie directed by Joel Cohen. Note that you may get duplicates for the reasons described here: https://stackoverflow.com/questions/23786401/why-do-multiple-table-joins-produce-duplicate-rows. You can remove duplicates like this: https://www.w3schools.com/sql/sql_distinct.asp.
 
 ### PART 3: Advanced Queries!
 

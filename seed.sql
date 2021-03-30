@@ -18,7 +18,7 @@ INSERT INTO directors (name) VALUES
   ('Joel Coen'),
   ('Sam Mendes');
 
-INSERT INTO movies (title, synopsis, director_id) VALUES
+INSERT INTO movies (title, synopsis, directorId) VALUES
   (
     'Birdman or (The Unexpected Virtue of Ignorance)',
     'Illustrated upon the progress of his latest Broadway play, a former popular actor''s struggle to cope with his current life as a wasted actor is shown.',
@@ -177,7 +177,7 @@ INSERT INTO movies (title, synopsis, director_id) VALUES
   ('Ryan'),
   ('Pete');
 
-INSERT INTO users_movies (user_id, movie_id) VALUES
+INSERT INTO usersMovies (userId, movieId) VALUES
   (1, 18),
   (1, 30),
   (1, 1),
